@@ -37,9 +37,9 @@ allLinks.forEach(function (link) {
     e.preventDefault();
     const href = link.getAttribute('href');
 
-    if (href === '/login.html') {
+    if (href === './login.html') {
       e.preventDefault();
-      window.location.href = '/login.html';
+      window.location.href = './login.html';
       return;
     }
     // Scroll back to top
